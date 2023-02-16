@@ -1,0 +1,26 @@
+{
+  "name": "staking_scripts",
+  "version": "1.0.0",
+  "description": "Staking Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.4.1",
+    "@truffle/hdwallet-provider": "^2.1.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.7.2",
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2",
+    "nodemon": "^2.0.15",
+    "web3": "^1.6.1"
+  }
+}
